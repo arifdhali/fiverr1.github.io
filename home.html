@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- fonts awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+    <section class="student__container">
+
+        <!-- left side -->
+        <aside class="sideNav">
+            <div class="page-heading">
+                <img src="Images/finger.png" alt="finger" class="finger">
+                <h2 class='sub-title'>attendly</h2>
+            </div>
+            <div class="sNav-button">
+                <button class="nav__btn active">                    
+                    <i class="fa-solid fa-house-user"></i>
+                    Home                
+                </button>
+                <button class="nav__btn">                    
+                    <i class="fa-solid fa-users"></i>
+                    Student                
+                </button>
+                <button class="nav__btn">
+                    <i class="fa-solid fa-chart-line"></i>
+                    Reports
+                </button>
+                <button class="nav__btn">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    Time Table
+                </button>
+                <button class="nav__btn">
+                    <i class="fa-solid fa-circle-info"></i>
+                    Student Logs
+                </button>
+            </div>
+        </aside>
+        <!-- right side -->
+        <div class="student__attendance__chart__container">
+            <!-- top -->
+            <div class="student__attendance__chart__container_top">
+                <div class="student__attendance__chart__container_top_content">
+                    <div class="user-name-button">
+                        <button class="user-name__left">
+                            <i class="fa-regular fa-user caretUp__down"></i>
+                            <span>User 1</span>
+                        </button>
+                        <div class="user-name__right">
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </div>
+                    <button id="logout">
+                        <span class="logout">Log Out</span>
+                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    </button>
+                </div>
+            </div>
+            <!--========================================== Main / Backend area -->
+            <div class="home">
+                <div class="home__top">
+                    <!-- top -->
+                    <!-- left -->
+                    <div class="home__content__left">
+                        <div class="page__name">
+                            <h2 class="page__title_home">Attendance Tracking System: <span
+                                    class="page__activity">ATTENDLY</span></h2>
+                        </div>
+                        <div class="page__details">
+                            <p>Taking attendance had been an issue for a long time, until creating ATTENDLY, using a
+                                more
+                                efficient way which is via a fingerprint</p>
+                        </div>
+                    </div>
+                    <!-- right -->
+                    <div class="home__content__right">
+                        <img src="Images/Security-cuate-1.png" alt="Image" class="Security-cuate-1">
+                    </div>
+                </div>
+                <!-- Features area -->
+                <!-- bottom -->
+                <div class="home__features">
+                    <div class="old__features">
+                        <img src="Images/Floppy disk-amico 1.png" alt="">
+                        <h3>Old Attendance Systems</h3>
+                        <ul class="features__list">
+                            <li>Time waste</li>
+                            <li>Unorganized</li>
+                            <li>Time waste</li>
+                        </ul>
+                    </div>
+                    <div class="new__features">
+                        <img src="Images/3d-fluency-fingerprint-1.png" alt="">
+                        <h3>Why via a Fingerprint?</h3>
+                        <ul class="features__list">
+                            <li>Time Effective</li>
+                            <li>Extremely Organized</li>
+                            <li>Naming Similarity</li>
+                            <li>No More Cheating</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
